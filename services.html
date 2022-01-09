@@ -1,0 +1,254 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!-- Favicon -->
+    <link rel="icon" href="images/favicon.png" type="image/x-icon">
+    <!-- scripts -->
+    <script src="js/jquery-3.6.0.min.js"></script>
+    <script src="js/slick/slick.min.js"></script>
+    <script src="js/main.js"></script>
+    <script src="js/menu_adapt.js"></script>
+    <!-- Stylesheet -->
+    <link href="css/style.css" rel="stylesheet" >
+    <link href="fonts/css/all.css" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Kurale&family=Montserrat+Alternates:wght@300;400&family=Philosopher&family=Ruthie&display=swap" rel="stylesheet">
+    <!-- Title -->
+    <title>Наши услуги - Magic Spa Salon</title>
+</head>
+<body class="page">
+
+    <header class="header">
+        <div class="container">
+            <div class="header__inner">
+                <div class="header__logo"><a href="index.html" target="_blank"><img src="images/logo.png" alt="логотип"></a></div>
+                <a href="javascript: menuToggler();" style="display: none;" class="menu__toggler"></a>
+                <nav class="navigation">
+                    <ul>
+                        <li><a class="nav__link" href="index.html">Главная</a></li>
+                        <li><a class="nav__link" href="about.html">О нас</a></li>
+                        <li><a class="nav__link  active" href="services.html">SPA услуги</a></li>
+                        <li><a class="nav__link" href="korpo.html">Партнерам</a></li>
+                        <li><a class="nav__link" href="gallery.html">Галерея</a></li>
+                        <li><a class="nav__link" href="contacts.html">Контакты</a></li>
+                    </ul>
+                </nav>
+               
+            </div>
+        </div>
+    </header>
+
+    <div class="wrapper page__name">
+        <div class="container">
+            <div class="wrapper__inner">
+                <h1 class="wrapper__title wrapper__name">Добро пожаловать в Magic Spa Salon!</h1>
+                <nav>
+                    <ul class="breadcrumb">
+                        <li><a href="index.html" target="_blank" title="На главную">Главная</a></li>
+                        <li><a href="services.html" target="_blank" title="На главную">SPA - услуги</a></li>
+                        <li>SPA - программы</li>
+                    </ul>
+                </nav>
+            </div>
+        </div>
+    </div>
+   
+<div class="services">
+    <nav>
+        <ul class="services__header">
+            <li class="services__name"><a class="nav__link active" href="services.html">Spa-программы</a></li>
+            <li class="services__name"><a class="nav__link" href="servicesspa.html">Spa-ритуалы</a></li>
+        </ul>
+    </nav>
+        
+        <div class="services__content">
+            <div class="services__list">
+                <div class="services__item">
+                    <div class="services__img">
+                        <img src="images/services/adv_9.jpg" alt="спа-услуга">
+                    </div>
+                    <div class="services__info">
+                        <div class="services__text">
+                    <h3>Спа-программа "Шоколадная мечта для двоих"</h3>
+                    <p>Вас двоих ждёт свидание с шоколадом, друг другом и, конечно, тайскими мастерами, которые
+                         сделают шоколадный пилинг и тайский арома-ритуал. В конце - шоколадное угощение с чаем.</p>
+                         <span class="programm__steps">Этапы программы</span>
+                            <ul>
+                                <li>Распаривание на выбор (ИК-сауна, кедровая бочка, хаммам) - 30 минут;</li>
+                                <li>Пилинг тела и использованием скраба "Кофе и шоколад" - 30 минут;</li>
+                                <li>Тайский арома ритуал с шоколадным кремом для каждого  - 1 ч;</li>
+                                <li>Фут ритуал «классический» для каждого - 30 минут;</li>
+                                <li>Чаепитие в комнате с шоколадными конфетами - 30 минут.</li>
+                            </ul>
+                         <span class="services__price">250 BYN</span>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="services__item">
+                    <div class="services__info">
+                        <div class="services__text">
+                    <h3>Спа-программа "Кокосовый рай для двоих"</h3>
+                    <p>Свечи, приглушённый свет, лёгкая восточная музыка и вы вдвоём. Гости выбирают эту программу 
+                        сразу по двум причинам: великолепный уход за кожей и балийский арома-ритуал на масле кокоса. </p>
+                        <span class="programm__steps">Этапы программы</span>
+                            <ul>
+                                <li>Распаривание на выбор - 30 минут;</li>
+                                <li>Скрабирование тела с кокосовым скрабом для каждого - 30 минут;</li>
+                                <li>Балийский арома ритуал с кокосовым маслом для каждого - 90 минут;</li>
+                                <li>Чаепитие в комнате с шоколадными конфетами - 30 минут.</li>
+                            </ul>
+                         <span class="services__price">270 BYN</span>
+                        </div>
+                    </div>
+                    <div class="services__img">
+                        <img src="images/services/adv_12.jpg" alt="спа-услуга">
+                    </div>
+                </div>
+
+                <div class="services__item">
+                    <div class="services__img">
+                        <img src="images/services/adv_2.jpeg" alt="спа-услуга">
+                    </div>
+                    <div class="services__info">
+                        <div class="services__text">
+                    <h3>Спа-программа "Бодрящий лемонграсс"</h3>
+                    <p>Эта программа разбудит вашу активность. Тайские мастера и аромат лемонграсса сотворят чудо: 
+                        если во время программы вы расслаблены, то после программы - прилив энергии. Востребована в тёплое 
+                        время года, хороша в период выхода из «зимней спячки». </p>
+                        <span class="programm__steps">Этапы программы</span>
+                            <ul>
+                                <li>Распаривание на выбор (ИК-сауна, кедровая бочка, хаммам) - 30 минут;</li>
+                                <li>Скрабирование тела с использованием солевого скраба "Лемонграсс" - 30 минут;</li>
+                                <li>Тайский арома ритуал с использованием масла "Лемонграсс" - 1 ч.</li>
+                            </ul>
+                         <span class="services__price">250 BYN</span>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="services__item">
+                    <div class="services__info">
+                        <div class="services__text">
+                    <h3>Спа-программа "Антистресс"</h3>
+                    <p> Цель программы - помочь вам избавиться от напряжения и усталости. Программа очень востребована мужчинами 
+                        и как подарок мужчинам. </p>
+                        <span class="programm__steps">Этапы программы</span>
+                            <ul>
+                                <li>Распаривание на выбор - 30 минут;</li>
+                                <li>Скраб «Карамбола и дикий крыжовник» - 30 минут;</li>
+                                <li>Омолаживающий лосьон для тела;</li>
+                                <li>Тайский Традиционный ритуал - 60 минут</li>
+                            </ul>
+                         <span class="services__price">150 BYN</span>
+                        </div>
+                    </div>
+                    <div class="services__img">
+                        <img src="images/services/adv_7.jpg" alt="спа-услуга">
+                    </div>
+                </div>
+
+                <div class="services__item">
+                    <div class="services__img">
+                        <img src="images/services/adv_5.jpg" alt="спа-услуга">
+                    </div>
+                    <div class="services__info">
+                        <div class="services__text">
+                    <h3>Спа-программа "Слим"</h3>
+                    <p>Программа для похудения и избавления от лишней жидкости и токсинов. Основная часть - тайский слим ритуал 
+                        с кремом на выбор: тайский антицеллюлитный или знаменитый по «-7 см» эффекту крем-рекордсмен
+                         “Gold shape”.  </p>
+                         <span class="programm__steps">Этапы программы</span>
+                            <ul>
+                                <li>Распаривание на выбор (ИК-сауна, кедровая бочка, хаммам) - 30 минут;</li>
+                                <li>Кремовый скраб "Кофе с корицей" - 30 минут;</li>
+                            </ul>
+                         <span class="services__price">120 BYN</span>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="services__item">
+                    <div class="services__info">
+                        <div class="services__text">
+                    <h3>Спа-программа "Балинезийский кокос"</h3>
+                    <p>Наши гости выбирают эту программу сразу по двум причинам: великолепный уход за кожей и балийский 
+                        арома-ритуал на масле кокоса. кокосовое масло уникально: содержит увлажняющую гиалуроновую, 
+                        антибактериальную лауриновую и другие полезные кислоты.</p>
+                        <span class="programm__steps">Этапы программы</span>
+                            <ul>
+                                <li>Распаривание на выбор - 30 минут;</li>
+                                <li>Пилинг с использованием кокосового скраба - 30 минут;</li>
+                            </ul>
+                         <span class="services__price">150 BYN</span>
+                        </div>
+                    </div>
+                    <div class="services__img">
+                        <img src="images/services/adv_1.jpg" alt="спа-услуга">
+                    </div>
+                </div>
+
+                <div class="services__item">
+                    <div class="services__img">
+                        <img src="images/services/adv_0.jpg" alt="спа-услуга">
+                    </div>
+                    <div class="services__info">
+                        <div class="services__text">
+                    <h3>Спа-программа для двоих "Магия лотоса"</h3>
+                    <p>Свечи, приглушённый свет, лёгкая восточная музыка и вы вдвоём. Программа для двоих «Магия лотоса» - 
+                        это не просто визит в спа, это настоящее свидание. Все происходит в одной комнате: сначала распаривание, 
+                        а после ложитесь на кушетки и два мастера синхронно выполняют тайский или балийский арома-риутал.</p>
+                        <span class="programm__steps">Этапы программы</span>
+                            <ul>
+                                <li>Для нее: распаривание ( ИК-сауна или хаммам ) 30 минут, скрабирование всего тела 30 минут, 
+                                    тайский арома ритуал 90 минут;</li>
+                                <li>Для него: распаривание ( ИК-сауна или хаммам ) 30 минут, скрабирование всего тела 30 минут, 
+                                    тайский арома ритуал 90 минут;</li>
+                            </ul>
+                         <span class="services__price">120 BYN</span>
+                        </div>
+                    </div>
+                </div>
+
+            </div>
+        </div>
+</div>
+
+<footer>
+    <div class="container">
+        <div class="footer__inner"> <!--start of the footer_inner -->
+                <div class="footer__socnetworks">
+                    <h2 class="footer__logo">Magic Spa Salon</h2>
+                        <div class="footer__socnetworks__content">
+                            Подпишись:  
+                            <a class="socnetworks__item" href="http://www.facebook.com/" target="_blank" title="Faceebook"><i class="fab fa-facebook-square"></i></a>
+                            <a class="socnetworks__item" href="https://www.instagram.com/" target="_blank" title="Instagram"><i class="fab fa-instagram"></i></a>
+                            <a class="socnetworks__item" href="https://twitter.com/" target="_blank" title="Twitter"><i class="fab fa-twitter"></i></a>
+                        </div>
+                </div>
+                <div class="contacts">
+                    <h3 class="contacts__header">Остались вопросы?</h3>
+                    <div>
+                        <p><i class="fas fa-phone"></i><a class="phone" href="tel:+375291112233" title="Телефончик возьми и намерочек набери"> +375 (29) 111 22 33</a></p>
+                        <p><i class="far fa-envelope"></i><a class="e-mail" href="mailto:magicspa@gmail.com"  title="Напиши нам"> magicspa@gmail.com</a></p>
+                        <p><i class="fas fa-map-marker-alt"></i> Барановичи, Ленина, 3</p>
+                    </div>
+                </div>
+
+                <div class="timetable">
+                    <h3 class="timetable__header">Время работы</h3>
+                    <div>
+                        <p>Вторник-Воскресенье: 10.00-23.00</p>
+                        <p>Понедельник: выходной</p>
+                    </div>
+                </div> 
+        </div> <!--end of the footer_inner -->
+                <div class="copyright"> 
+                    &copy; 2021 All rights reserved &#9825;
+                </div>
+    </div>
+</footer>
+</body>
+</html>
